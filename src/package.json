@@ -1,0 +1,16 @@
+{
+  "name": "webscript3",
+  "version": "1.0.0",
+  "description": "A test for research paper that measures desyncing of clocks in distributed systems",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harry Clark",
+  "license": "ISC"
+}
