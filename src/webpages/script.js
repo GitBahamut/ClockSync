@@ -13,7 +13,7 @@ async function getServerTime(){
   timer = result + roundTripTime/2;
   const diff = Math.abs(result - (oldTime));
   console.log("time diff: " + diff);
-  console.log("local time: " + oldTime)
+  console.log("local time: " + oldTime);
   console.log("server time: " + result);
   console.log("RTT: " + roundTripTime);
   log.push([counter+=1, diff, roundTripTime]);
