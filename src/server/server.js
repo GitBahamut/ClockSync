@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 let timer = 0;
-setInterval(function(){ timer+=0.05; }, 50);
+setInterval(function(){ timer+=0.005; }, 5);
 
 app.use('/', express.static('webpages', { extensions: ['html'] }));
 app.get('/api/sync', getData);
